@@ -1,0 +1,29 @@
+#java
+*.class
+*.jar
+*.war
+*.ear
+*.scssc
+#ivy lib folder
+**/lib
+#ant output folder
+
+#IDEA config
+.idea
+*.iml
+**/out
+**/classes
+#maven output folder
+target/
+#eclipse config
+.classpath
+.project
+.settings
+logs
+**/bin
+#icon cache
+.DS_Store
+#node npm
+**/node_modules
+#all kinds customize configuration
+**/mybatis-generatorConfig.xml
