@@ -9,14 +9,16 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>spricloud-belleservice</artifactId>
+    <artifactId>springcloud-allfacade</artifactId>
 
-    <name>spricloud-belleservice</name>
+    <name>springcloud-allfacade</name>
     <!-- FIXME change it to the project's website -->
     <url>http://www.example.com</url>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>1.7</maven.compiler.source>
+        <maven.compiler.target>1.7</maven.compiler.target>
     </properties>
 
     <dependencies>
@@ -34,9 +36,8 @@
 
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-eureka</artifactId>
+            <artifactId>spring-cloud-starter-feign</artifactId>
         </dependency>
-
     </dependencies>
 
     <build>
@@ -50,23 +51,6 @@
                     <target>1.8</target>
                     <encoding>utf-8</encoding>
                 </configuration>
-            </plugin>
-            <!--spring boot打包-->
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-                <configuration>
-                    <mainClass>com.cc.springcloud.demos.services.belle.BelleServiceBoot</mainClass>
-                    <addResources>true</addResources>
-                    <fork>true</fork>
-                </configuration>
-                <executions>
-                    <execution>
-                        <goals>
-                            <goal>repackage</goal>
-                        </goals>
-                    </execution>
-                </executions>
             </plugin>
         </plugins>
     </build>

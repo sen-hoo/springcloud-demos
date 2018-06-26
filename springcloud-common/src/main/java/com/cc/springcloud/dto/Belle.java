@@ -1,4 +1,4 @@
-package com.cc.springcloud.demos.services.belle.dto;
+package com.cc.springcloud.dto;
 
 public class Belle {
     private String name;

@@ -1,6 +1,6 @@
 package com.cc.springcloud.demos.services.belle.endpoints;
 
-import com.cc.springcloud.demos.services.belle.dto.Belle;
+import com.cc.springcloud.dto.Belle;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 

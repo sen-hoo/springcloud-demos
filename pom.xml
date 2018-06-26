@@ -13,6 +13,7 @@
     <module>spricloud-belleservice</module>
       <module>springcloud-openapiconsumer</module>
     <module>springcloud-common</module>
+      <module>springcloud-allfacade</module>
   </modules>
 
   <name>springcloud-demos</name>
