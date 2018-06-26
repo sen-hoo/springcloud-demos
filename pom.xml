@@ -22,6 +22,7 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <springboot-version>1.5.10.RELEASE</springboot-version>
   </properties>
 
   <dependencyManagement>
